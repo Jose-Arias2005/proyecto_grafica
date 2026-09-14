@@ -1,0 +1,14 @@
+# ─── Runtime Python (app_ui/) ────────────────────────────────────────────────
+opencv-python>=4.9.0
+mediapipe>=0.10.14
+numpy>=1.26.0
+
+# ─── GUI ─────────────────────────────────────────────────────────────────────
+PyQt6>=6.7.0          # GUI principal (ventana de preview + controles)
+
+# ─── Utilidades de desarrollo ─────────────────────────────────────────────────
+Pillow>=10.4.0        # Conversión de frames para preview Qt
+psutil>=6.0.0         # Monitoreo de performance (FPS, uso de CPU/GPU)
+
+# ─── Opcional: notebook de prototipado ───────────────────────────────────────
+# jupyterlab>=4.2.0
